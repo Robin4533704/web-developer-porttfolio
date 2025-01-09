@@ -82,15 +82,8 @@ font-weight: 600;
     width: 484px;
     height: 576px;
 }
- .secondary-bg{
-    background-color: #FFF8F3;
-   
-}
-.out-me{
-    border: 1px solid rgb(233, 212, 212);
-    max-width: 1120px;
-   
-}
+
+
 .section-titel{
     font-size: 50px;
     font-weight: bold;
@@ -119,19 +112,28 @@ main section{
     margin-bottom: 130px;
 }
 /* about */
+.secondary-bg{
+    background-color: #FFF8F3;
+   
+}
 .about{
     border-radius: 10px;
     padding: 100px 130px;
     text-align: center;
 }
-.item-description{
-    font-weight: bold;
-    color: black;
+.out-me{
+    border: 1px solid rgb(233, 212, 212);
+    
    
 }
+.item-description{
+    font-weight: bold;
+    color: black;  
+}
 .about-items{
-    display: flex;
+   display: flex;
     justify-content: space-around;
+    margin-top: 5px;
   
 }
 
@@ -155,5 +157,71 @@ text-align: center;
 .skills{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgb(236, 204, 204);
+    border-radius: 5px;
+}
+/* resume section styles */
+.resumn-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title1{
+    text-align: center;
+    font-size: 30px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-title {
+    color: #757575;
+}
+.resumn hr{
+    margin: 30px;
+}
+
+.btn-primary1{
+border: 1px solid orange;
+width: fit-content;
+padding: 10px 30px;
+background-color: #FD6E0A;
+color: #FFF8F3;
+border: 5px;
+}
+.text-center1{
+    padding-left: 500px;
+    margin-top: 15px;
+}
+.btn-primary1:hover{
+    background-color: #d37a3b;
+    opacity: 100%;
+    transition: all ease-in 0.5s;
+    cursor: pointer;
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    flex: 50%;
+}
+.section-title1{
+    font-size: 35px;
+}
+.icon{
+    font-size: 80px;
+     margin-top: -20px;
+    
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border: 5px;
+    background-color: white;
+    width: 100%;
+    display: block;
+    padding: 8px 20px;
+    margin-bottom: 14px;
+    border: none;
     border-radius: 5px;
 }
