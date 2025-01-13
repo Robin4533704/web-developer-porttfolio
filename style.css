@@ -59,7 +59,6 @@ nav li a {
 }
 .banner-content {
   max-width: 580px;
-  border: 1px solid #fff8f3;
   width: fit-content;
   height: fit-content;
 }
@@ -118,7 +117,7 @@ main section {
   text-align: center;
 }
 .about-me {
-  border: 1px solid rgb(202, 38, 38);
+
 }
 .item-description {
   font-weight: bold;
