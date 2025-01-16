@@ -234,15 +234,17 @@ nav ul{
   .btn-primary{
     margin: 20px;
   }
-  .banner{
-    width: 100%;
+  .btn-primary1{
+    margin-left: 40px;
   }
-.banner{
-  margin: 20px;
-}
-.banner-profile{
-  width: 100%;}
 
+.banner-profile{
+  width: 100%;
+}
+.banner{
+  width: 100%;
+margin: 0;
+}
 .header{
   background-image: none;
 }
