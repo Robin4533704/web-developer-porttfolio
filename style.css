@@ -55,7 +55,7 @@ nav li a {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 0 35px 0 230px;
+  margin: 0 35px 0 200px;
 }
 .banner-content {
   max-width: 580px;
@@ -74,8 +74,8 @@ nav li a {
   color: #474747;
 }
 .banner-profile {
-  width: 484px;
-  height: 576px;
+  width: 580px;
+  /* height: 576px; */
 }
 
 .section-titel {
@@ -172,7 +172,7 @@ main section {
   margin: 30px;
 }
 
-.btn-primary1 {
+.btn-primary1{
   border: 1px solid orange;
   width: fit-content;
   padding: 10px 30px;
@@ -181,7 +181,7 @@ main section {
   border: 5px;
 }
 .text-center1 {
-  padding-left: 500px;
+ text-align: center;
   margin-top: 15px;
 }
 .btn-primary1:hover {
@@ -221,19 +221,32 @@ footer textarea {
 @media screen and (max-width: 576px) {
   .skills-container, .resume-container,
    footer, 
-   nav, nav > ul, .about-items{
+    .about-items, .banner, nav, nav > ul{
     flex-direction: column;
   }
   .resume-container{
     padding: 20px;
     margin: 10px;
   }
+nav ul{
+  gap: 10px;
+}
+
   .btn-primary{
     margin: 20px;
   }
   .banner{
     width: 100%;
   }
+.banner{
+  margin: 20px;
+}
+.banner-profile{
+  width: 100%;}
+
+.header{
+  background-image: none;
+}
   .footer-column{
    width: 100%;
   }
